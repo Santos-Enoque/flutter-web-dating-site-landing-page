@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:flutter_web_example/pages/home/home.dart';
 
-import 'controllers/menu_controller.dart';
 
 void main(){
-  Get.put(MenuController());
   runApp(MyApp());
 }
 
