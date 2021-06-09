@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class BottomTextWidget extends StatelessWidget {
+class BottomText extends StatelessWidget {
   final String mainText;
   final String secondaryText;
 
-  const BottomTextWidget({Key key, this.mainText, this.secondaryText}) : super(key: key);
+  const BottomText({Key key, this.mainText, this.secondaryText}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return  RichText(text: TextSpan(
